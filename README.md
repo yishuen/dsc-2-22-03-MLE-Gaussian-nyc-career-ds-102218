@@ -1,5 +1,5 @@
 
-# MLE with Normal Distribution
+# MLE with Normal Distributions
 
 ## Introduction
 In the previous section, we looked at an introduction to Bayesian inferencing and learned how conditional probabilities along with law of total probability can be used in a predictive context. We looked at how Maximum likelihood and A posteriori estimations can be used to calculate the posterior probability by learning some unknown variable theta, given all the available data.  In this is lesson, we shall look at using this Bayesian setting in a Gaussian context i.e. when the underlying random variables are normally distributed. 
@@ -10,7 +10,7 @@ You will be able to:
 * Understand and describe how MLE works with normal distributions
 * Calculate the MLE estimations for expected mean and variance 
 
-## A Quick recap. 
+## A Quick recap
 
 Given some parameterized distribution $P(X|θ)$, and an collection of (independent) samples $x_1,…,x_m$, we can compute the probability of observing this set of samples under the distribution, which is simply given by:
 
@@ -33,7 +33,7 @@ So far we have been looking at coin toss experiments and working with binomial d
 
 So just like above, We can set up a likelihood equation: $P(X|\mu, \sigma)$, and find the value of that maximizes it by taking its derivative w.r.t theta and solve for $X$. 
 
-### Maximum Likelihood Estimation for $\mu$ and $\sigma^2$
+## Maximum Likelihood Estimation for $\mu$ and $\sigma^2$
 
 As long as $x_1, ..., x_n$ are independent and from the same distribution, these will fulfill our i.i.d assumption.  We can write down our $P(X|\theta)$ equation for the normal distribution case as below:
 
